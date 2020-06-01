@@ -1,0 +1,131 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f3f3f3;
+}
+
+.navbar {
+    background-color: #D61F54;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    color: #333;
+    background-color: #333;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon,
+.carousel-caption {
+    filter: invert(1);
+}
+
+/*#carouselExampleCaptions {*/
+/*    width: 100%;*/
+/*}*/
+
+
+.home-headline {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+}
+
+.home-headline span {
+    background-color: #303841;
+    padding: 5px 22px;
+}
+
+.sec {
+    border: none;
+}
+
+.featured-books {
+    place-content: center;
+}
+
+.page-top {
+    margin-top: -20px;
+}
+
+.section-headline {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: #fff;
+    text-align: left;
+}
+
+.section-headline span {
+    background-color: #303841;
+    padding: 5px 22px;
+}
+
+@media (min-width: 380px) {
+
+    h2.section-headline {
+        font-size: 8.5px;
+    }
+
+    .home-headline span {
+        font-size: 8.5px;
+    }
+
+}
+
+
+@media (min-width: 576px) {
+
+    h2.section-headline {
+        font-size: 11.5px;
+    }
+
+    .home-headline span {
+        font-size: 11.5px;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    h2.section-headline {
+        font-size: 15.3px;
+    }
+
+    .home-headline span {
+        font-size: 15.3px;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    html {
+        font-size: 10px;
+    }
+
+
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
+
+    h2.section-headline {
+        font-size: 24px;
+    }
+
+    .home-headline span {
+        font-size: 24px;
+    }
+
+}
+
+/*.form-fields input[type="text"] {*/
+/*    max-width: 100%;*/
+/*}*/
+

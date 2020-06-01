@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="common/header :: common-header"/>
+
+<body>
+<!--    Nav-->
+<div th:replace="common/header :: navbar"/>
+
+<div class="container">
+    <img th:src="@{/img/logo.png}" class="img-fluid" style="position: center;">
+</div>
+
+
+<div th:replace="common/header :: body-bottom-scripts"/>
+</body>
+
+</html>
